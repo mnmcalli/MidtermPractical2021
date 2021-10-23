@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+p{
+    margin-bottom: 20px;
+    color: white;
+}
+h1{
+    margin-bottom: 20px;
+    color: white;
+}
+h2{
+    margin-bottom: 20px;
+    color: white;
+}
+html{
+    background-color: red;
+}
+body{
+    box-sizing: border-box;
+    padding-top: 85px;
+}
+a{
+    color:dimgray;
+    text-decoration: none;
+    font-size: xx-large;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 8px;
+    border-bottom: 5px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+.wrapper{
+    box-sizing: border-box;
+    padding-top: 65px;
+    padding-left: 8px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.textbox{
+    margin: 25px;
+}
+img{
+    height: 200px;
+}
+.picture{
+    display: flex;
+    height: 300px;
+    margin: 20px;
+}
+.pictureBox{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin: 20px;
+}
+@media screen and (max-width: 800px) {
+    html{
+        background-color: darkgreen;
+    }
+}
